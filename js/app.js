@@ -1,27 +1,27 @@
 
 $(document).ready(function () {
-    $(".all").show();
+    $(".all").fadeIn();
   
     $("#cakes").on("click", () => {
-      $(".cakes").show();
+      $(".cakes").fadeIn();
       $(".cupcakes").hide();
       $(".sweets").hide();
     });
   
     $("#cupcakes").on("click", () => {
-      $(".cupcakes").show();
+      $(".cupcakes").fadeIn();
       $(".cakes").hide();
       $(".sweets").hide();
     });
   
     $("#sweets").on("click", () => {
-      $(".sweets").show();
+      $(".sweets").fadeIn();
       $(".cakes").hide();
       $(".cupcakes").hide();
     });
     
     $('#all').on('click', () => {
-      $('.all').show();
+      $('.all').fadeIn();
     })
   });
   
